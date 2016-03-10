@@ -1,0 +1,704 @@
+# project ndn-cxx (0.3.92) configured on Fri Nov  6 21:32:25 2015 by
+# waf 1.8.9 (abi 98, python 20706f0 on linux2)
+# using ./waf configure --debug --with-tests
+#
+----------------------------------------
+Setting top to
+/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx
+----------------------------------------
+Setting out to
+/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build
+----------------------------------------
+Building static library
+no
+----------------------------------------
+Building shared library
+yes
+----------------------------------------
+Checking for 'g++' (C++ compiler)
+find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='CXX' -> ['/usr/bin/g++']
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/g++
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_f16d759086af6bebdbdfe49741d3be26/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-std=c++11', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_f16d759086af6bebdbdfe49741d3be26/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_f16d759086af6bebdbdfe49741d3be26/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_f16d759086af6bebdbdfe49741d3be26/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+-std=c++11
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_500abd180f0c757aab9083afa98bb74a/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-O0', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_500abd180f0c757aab9083afa98bb74a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_500abd180f0c757aab9083afa98bb74a/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_500abd180f0c757aab9083afa98bb74a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_d3e00a89edb24711c0198180029d7b41/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-g3', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_d3e00a89edb24711c0198180029d7b41/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_d3e00a89edb24711c0198180029d7b41/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_d3e00a89edb24711c0198180029d7b41/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_714b8a1f113986097e2bab1f8fa28e73/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-pedantic', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_714b8a1f113986097e2bab1f8fa28e73/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_714b8a1f113986097e2bab1f8fa28e73/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_714b8a1f113986097e2bab1f8fa28e73/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_06c841c0194df65a3d4dfc283d8109fb/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wall', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_06c841c0194df65a3d4dfc283d8109fb/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_06c841c0194df65a3d4dfc283d8109fb/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_06c841c0194df65a3d4dfc283d8109fb/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_aa89259f5e91182383aaaacff4f26e68/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wextra', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_aa89259f5e91182383aaaacff4f26e68/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_aa89259f5e91182383aaaacff4f26e68/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_aa89259f5e91182383aaaacff4f26e68/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_7b168b675f2c1b26bb9488d764c3ec98/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Werror', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_7b168b675f2c1b26bb9488d764c3ec98/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_7b168b675f2c1b26bb9488d764c3ec98/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_7b168b675f2c1b26bb9488d764c3ec98/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_e367a80d144d1e210847117a13c0c21a/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wno-unused-parameter', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_e367a80d144d1e210847117a13c0c21a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_e367a80d144d1e210847117a13c0c21a/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_e367a80d144d1e210847117a13c0c21a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_1bf5176ffdd5ea07249b1308c11bc9d5/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wno-error=maybe-uninitialized', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_1bf5176ffdd5ea07249b1308c11bc9d5/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_1bf5176ffdd5ea07249b1308c11bc9d5/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_1bf5176ffdd5ea07249b1308c11bc9d5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_1b54d32f565f6c9aa56cdefd7678f5f3/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wno-missing-field-initializers', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_1b54d32f565f6c9aa56cdefd7678f5f3/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_1b54d32f565f6c9aa56cdefd7678f5f3/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_1b54d32f565f6c9aa56cdefd7678f5f3/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_3e71528d3c3b41ab03913d314e8cbc3e/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Og', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_3e71528d3c3b41ab03913d314e8cbc3e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_3e71528d3c3b41ab03913d314e8cbc3e/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_3e71528d3c3b41ab03913d314e8cbc3e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_19f39752659392b58075a3b0a9c55184/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-fdiagnostics-color', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_19f39752659392b58075a3b0a9c55184/testbuild/test.cpp.1.o']
+err: g++: error: unrecognized command line option ‘-fdiagnostics-color’
+
+from /home/zzfanhero/Documents/GitHub/ndn/ndn-cxx: Test does not build: Traceback (most recent call last):
+  File "/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Configure.py", line 343, in run_build
+    bld.compile()
+  File "/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 3058865772L: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-std=c++11', '-Werror', '-fdiagnostics-color', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_19f39752659392b58075a3b0a9c55184/testbuild/test.cpp.1.o']
+
+from /home/zzfanhero/Documents/GitHub/ndn/ndn-cxx: The configuration failed
+-O0 -g3 -pedantic -Wall -Wextra -Werror -Wno-unused-parameter -Wno-error=maybe-uninitialized -Wno-missing-field-initializers -Og
+----------------------------------------
+Checking for program 'doxygen'
+not found
+find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='DOXYGEN' -> None
+from /home/zzfanhero/Documents/GitHub/ndn/ndn-cxx: Could not find the program ['doxygen']
+----------------------------------------
+Checking for program 'tar'
+/bin/tar
+find program=['tar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='TAR' -> ['/bin/tar']
+----------------------------------------
+Checking for program 'sphinx-build'
+not found
+find program=['sphinx-build'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='SPHINX_BUILD' -> None
+from /home/zzfanhero/Documents/GitHub/ndn/ndn-cxx: Could not find the program ['sphinx-build']
+------------------------------------------
+Checking for std::is_default_constructible
+==>
+#include <type_traits>
+static_assert(std::is_default_constructible<int>::value, "");
+<==
+[1/1] Compiling [32mbuild/.conf_check_7dc5a5a7bbfc8d2d87df3a284c43a31c/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_7dc5a5a7bbfc8d2d87df3a284c43a31c/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for std::is_nothrow_move_constructible
+==>
+#include <type_traits>
+static_assert(std::is_nothrow_move_constructible<int>::value, "");
+<==
+[1/1] Compiling [32mbuild/.conf_check_8b8e21bca9086b481ac31d400ac6d5d2/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_8b8e21bca9086b481ac31d400ac6d5d2/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for std::is_nothrow_move_assignable
+==>
+#include <type_traits>
+static_assert(std::is_nothrow_move_assignable<int>::value, "");
+<==
+[1/1] Compiling [32mbuild/.conf_check_162272a0b6af46fede4a15a65be51261/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_162272a0b6af46fede4a15a65be51261/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for friend typename-specifier
+==>
+
+class A;
+
+template<typename T>
+class B
+{
+  friend T;
+};
+
+B<A> g_b;
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_5d03d7bbe9eba8ddeff1b13ad9a0bb55/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_5d03d7bbe9eba8ddeff1b13ad9a0bb55/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for override and final specifiers
+==>
+
+class Base
+{
+  virtual void
+  f(int a);
+};
+
+class Derived : public Base
+{
+  virtual void
+  f(int a) override;
+};
+
+class Final : public Derived
+{
+  virtual void
+  f(int a) final;
+};
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_960a255d8f21ea3eb19c91a449f5ef4d/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_960a255d8f21ea3eb19c91a449f5ef4d/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for std::to_string
+==>
+
+#include <string>
+int
+main()
+{
+  std::string s = std::to_string(0);
+  s = std::to_string(0l);
+  s = std::to_string(0ll);
+  s = std::to_string(0u);
+  s = std::to_string(0ul);
+  s = std::to_string(0ull);
+  s = std::to_string(0.0f);
+  s = std::to_string(0.0);
+  s = std::to_string(0.0l);
+  s.clear();
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_40813ba73f2aa351c967ea1fb0376d5d/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_40813ba73f2aa351c967ea1fb0376d5d/testbuild/test.cpp.1.o']
+yes
+----------------------------------------------------
+Checking for std::vector::insert with const_iterator
+==>
+
+#include <vector>
+int
+main()
+{
+  std::vector<int> v;
+  std::vector<int>::const_iterator it = v.cbegin();
+
+  v.insert(it, 2);
+  it = v.cend() - 1;
+  v.erase(it);
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_699c87762256bd42c46845d4486944fa/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_699c87762256bd42c46845d4486944fa/testbuild/test.cpp.1.o']
+err: ../test.cpp: In function ‘int main()’:
+../test.cpp:9:17: error: no matching function for call to ‘std::vector<int>::insert(std::vector<int>::const_iterator&, int)’
+   v.insert(it, 2);
+                 ^
+../test.cpp:9:17: note: candidates are:
+In file included from /usr/include/c++/4.8/vector:69:0,
+                 from ../test.cpp:2:
+/usr/include/c++/4.8/bits/vector.tcc:107:5: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::value_type = int]
+     vector<_Tp, _Alloc>::
+     ^
+/usr/include/c++/4.8/bits/vector.tcc:107:5: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from ../test.cpp:2:
+/usr/include/c++/4.8/bits/stl_vector.h:988:7: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(iterator __position, value_type&& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:988:7: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+/usr/include/c++/4.8/bits/stl_vector.h:1005:7: note: void std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*]
+       insert(iterator __position, initializer_list<value_type> __l)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:1005:7: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+/usr/include/c++/4.8/bits/stl_vector.h:1023:7: note: void std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::size_type = unsigned int; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(iterator __position, size_type __n, const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:1023:7: note:   candidate expects 3 arguments, 2 provided
+/usr/include/c++/4.8/bits/stl_vector.h:1044:9: note: template<class _InputIterator, class> void std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, _InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = int; _Alloc = std::allocator<int>]
+         insert(iterator __position, _InputIterator __first,
+         ^
+/usr/include/c++/4.8/bits/stl_vector.h:1044:9: note:   template argument deduction/substitution failed:
+../test.cpp:9:17: note:   cannot convert ‘it’ (type ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’) to type ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+   v.insert(it, 2);
+                 ^
+../test.cpp:11:13: error: no matching function for call to ‘std::vector<int>::erase(std::vector<int>::const_iterator&)’
+   v.erase(it);
+             ^
+../test.cpp:11:13: note: candidates are:
+In file included from /usr/include/c++/4.8/vector:69:0,
+                 from ../test.cpp:2:
+/usr/include/c++/4.8/bits/vector.tcc:134:5: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::erase(std::vector<_Tp, _Alloc>::iterator) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*]
+     vector<_Tp, _Alloc>::
+     ^
+/usr/include/c++/4.8/bits/vector.tcc:134:5: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+/usr/include/c++/4.8/bits/vector.tcc:146:5: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::erase(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::iterator) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*]
+     vector<_Tp, _Alloc>::
+     ^
+/usr/include/c++/4.8/bits/vector.tcc:146:5: note:   candidate expects 2 arguments, 1 provided
+
+from /home/zzfanhero/Documents/GitHub/ndn/ndn-cxx: Test does not build: Traceback (most recent call last):
+  File "/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Configure.py", line 343, in run_build
+    bld.compile()
+  File "/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 3058894732L: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_699c87762256bd42c46845d4486944fa/testbuild/test.cpp.1.o']
+
+no
+from /home/zzfanhero/Documents/GitHub/ndn/ndn-cxx: The configuration failed
+----------------------------------------------------
+Checking for program 'sh'
+/bin/sh
+find program=['sh'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='SH' -> ['/bin/sh']
+----------------------------------------------------
+Checking for library pthread
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_2a65d5c4e33c9bc003d3e22c3e54261e/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_2a65d5c4e33c9bc003d3e22c3e54261e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_2a65d5c4e33c9bc003d3e22c3e54261e/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_2a65d5c4e33c9bc003d3e22c3e54261e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lpthread']
+yes
+----------------------------------------------------
+Checking for library rt
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_b660ca12237fb70619e3eca77f2eb422/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '-DHAVE_PTHREAD=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_b660ca12237fb70619e3eca77f2eb422/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_b660ca12237fb70619e3eca77f2eb422/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_b660ca12237fb70619e3eca77f2eb422/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+yes
+----------------------------------------------------
+Checking for function getpass
+==>
+
+#include <unistd.h>
+int
+main(int, char**)
+{
+  char* pass = getpass("test prompt");
+  (void)(pass);
+  return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_f56a5174c161669b5c5bc257a8756d6b/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_f56a5174c161669b5c5bc257a8756d6b/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_f56a5174c161669b5c5bc257a8756d6b/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_f56a5174c161669b5c5bc257a8756d6b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+----------------------------------------------------
+Checking for rtnetlink
+==>
+#include <netinet/in.h>
+#include <linux/netlink.h>
+#include <linux/rtnetlink.h>
+#include <net/if.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_36ffa1a3eeff307ec6ce2d5a18e6f4ce/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_36ffa1a3eeff307ec6ce2d5a18e6f4ce/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_36ffa1a3eeff307ec6ce2d5a18e6f4ce/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_36ffa1a3eeff307ec6ce2d5a18e6f4ce/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+----------------------------------------------------
+Checking for program 'pkg-config'
+/usr/bin/pkg-config
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+----------------------------------------------------
+Checking for 'sqlite3'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'sqlite3']
+out:  -lsqlite3  
+
+yes
+----------------------------------------------------
+Checking Crypto++ lib
+561
+----------------------------------------------------
+Checking if CryptoPP library works
+==>
+
+#include "../../src/security/cryptopp.hpp"
+#include <iostream>
+
+int
+main()
+{
+  using namespace CryptoPP;
+
+  std::string buffer = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+  SHA256 hash;
+  StringSource(buffer, true, new HashFilter(hash, new FileSink(std::cout)));
+  StringSource(reinterpret_cast<const uint8_t*>(buffer.c_str()), buffer.size(),
+               true, new HashFilter(hash, new FileSink(std::cout)));
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_3a46592da5bc42c96acb37884f050e98/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-I/usr/include', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '-DHAVE_RTNETLINK=1', '-DHAVE_SQLITE3=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_3a46592da5bc42c96acb37884f050e98/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_3a46592da5bc42c96acb37884f050e98/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_3a46592da5bc42c96acb37884f050e98/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib', '-lcryptopp', '-lpthread']
+yes
+----------------------------------------------------
+Checking boost includes
+1.54.0
+----------------------------------------------------
+Checking boost libs
+Found the boost path in /usr/lib/i386-linux-gnu with the libraries:
+    /usr/lib/i386-linux-gnu/libboost_atomic.a
+    /usr/lib/i386-linux-gnu/libboost_atomic.so
+    /usr/lib/i386-linux-gnu/libboost_atomic.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_chrono.a
+    /usr/lib/i386-linux-gnu/libboost_chrono.so
+    /usr/lib/i386-linux-gnu/libboost_chrono.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_context.a
+    /usr/lib/i386-linux-gnu/libboost_context.so
+    /usr/lib/i386-linux-gnu/libboost_context.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_coroutine.a
+    /usr/lib/i386-linux-gnu/libboost_date_time.a
+    /usr/lib/i386-linux-gnu/libboost_date_time.so
+    /usr/lib/i386-linux-gnu/libboost_date_time.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_exception.a
+    /usr/lib/i386-linux-gnu/libboost_filesystem.a
+    /usr/lib/i386-linux-gnu/libboost_filesystem.so
+    /usr/lib/i386-linux-gnu/libboost_filesystem.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_graph.a
+    /usr/lib/i386-linux-gnu/libboost_graph.so
+    /usr/lib/i386-linux-gnu/libboost_graph.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_graph_parallel.a
+    /usr/lib/i386-linux-gnu/libboost_graph_parallel.so
+    /usr/lib/i386-linux-gnu/libboost_graph_parallel.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_iostreams.a
+    /usr/lib/i386-linux-gnu/libboost_iostreams.so
+    /usr/lib/i386-linux-gnu/libboost_iostreams.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_locale.a
+    /usr/lib/i386-linux-gnu/libboost_locale.so
+    /usr/lib/i386-linux-gnu/libboost_locale.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_log.a
+    /usr/lib/i386-linux-gnu/libboost_log.so
+    /usr/lib/i386-linux-gnu/libboost_log.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_log_setup.a
+    /usr/lib/i386-linux-gnu/libboost_log_setup.so
+    /usr/lib/i386-linux-gnu/libboost_log_setup.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_math_c99.a
+    /usr/lib/i386-linux-gnu/libboost_math_c99.so
+    /usr/lib/i386-linux-gnu/libboost_math_c99.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_math_c99f.a
+    /usr/lib/i386-linux-gnu/libboost_math_c99f.so
+    /usr/lib/i386-linux-gnu/libboost_math_c99f.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_math_c99l.a
+    /usr/lib/i386-linux-gnu/libboost_math_c99l.so
+    /usr/lib/i386-linux-gnu/libboost_math_c99l.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_math_tr1.a
+    /usr/lib/i386-linux-gnu/libboost_math_tr1.so
+    /usr/lib/i386-linux-gnu/libboost_math_tr1.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_math_tr1f.a
+    /usr/lib/i386-linux-gnu/libboost_math_tr1f.so
+    /usr/lib/i386-linux-gnu/libboost_math_tr1f.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_math_tr1l.a
+    /usr/lib/i386-linux-gnu/libboost_math_tr1l.so
+    /usr/lib/i386-linux-gnu/libboost_math_tr1l.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_mpi.a
+    /usr/lib/i386-linux-gnu/libboost_mpi.so
+    /usr/lib/i386-linux-gnu/libboost_mpi.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_mpi_python-py27.a
+    /usr/lib/i386-linux-gnu/libboost_mpi_python-py27.so
+    /usr/lib/i386-linux-gnu/libboost_mpi_python-py27.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_mpi_python-py34.a
+    /usr/lib/i386-linux-gnu/libboost_mpi_python-py34.so
+    /usr/lib/i386-linux-gnu/libboost_mpi_python-py34.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_mpi_python.a
+    /usr/lib/i386-linux-gnu/libboost_mpi_python.so
+    /usr/lib/i386-linux-gnu/libboost_prg_exec_monitor.a
+    /usr/lib/i386-linux-gnu/libboost_prg_exec_monitor.so
+    /usr/lib/i386-linux-gnu/libboost_prg_exec_monitor.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_program_options.a
+    /usr/lib/i386-linux-gnu/libboost_program_options.so
+    /usr/lib/i386-linux-gnu/libboost_program_options.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_python-py27.a
+    /usr/lib/i386-linux-gnu/libboost_python-py27.so
+    /usr/lib/i386-linux-gnu/libboost_python-py27.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_python-py34.a
+    /usr/lib/i386-linux-gnu/libboost_python-py34.so
+    /usr/lib/i386-linux-gnu/libboost_python-py34.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_python.a
+    /usr/lib/i386-linux-gnu/libboost_python.so
+    /usr/lib/i386-linux-gnu/libboost_random.a
+    /usr/lib/i386-linux-gnu/libboost_random.so
+    /usr/lib/i386-linux-gnu/libboost_random.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_regex.a
+    /usr/lib/i386-linux-gnu/libboost_regex.so
+    /usr/lib/i386-linux-gnu/libboost_regex.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_serialization.a
+    /usr/lib/i386-linux-gnu/libboost_serialization.so
+    /usr/lib/i386-linux-gnu/libboost_serialization.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_signals.a
+    /usr/lib/i386-linux-gnu/libboost_signals.so
+    /usr/lib/i386-linux-gnu/libboost_signals.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_system.a
+    /usr/lib/i386-linux-gnu/libboost_system.so
+    /usr/lib/i386-linux-gnu/libboost_system.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_test_exec_monitor.a
+    /usr/lib/i386-linux-gnu/libboost_thread.a
+    /usr/lib/i386-linux-gnu/libboost_thread.so
+    /usr/lib/i386-linux-gnu/libboost_thread.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_timer.a
+    /usr/lib/i386-linux-gnu/libboost_timer.so
+    /usr/lib/i386-linux-gnu/libboost_timer.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_unit_test_framework.a
+    /usr/lib/i386-linux-gnu/libboost_unit_test_framework.so
+    /usr/lib/i386-linux-gnu/libboost_unit_test_framework.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_wave.a
+    /usr/lib/i386-linux-gnu/libboost_wave.so
+    /usr/lib/i386-linux-gnu/libboost_wave.so.1.54.0
+    /usr/lib/i386-linux-gnu/libboost_wserialization.a
+    /usr/lib/i386-linux-gnu/libboost_wserialization.so
+    /usr/lib/i386-linux-gnu/libboost_wserialization.so.1.54.0
+Trying pattern boost_system(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_system(-1_54)+
+Trying pattern boost_system(-1_54)+
+Trying pattern boost_system(-gcc[0-9]{0,3})+
+Trying pattern boost_system
+Found boost lib libboost_system.a
+Trying pattern boost_filesystem(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_filesystem(-1_54)+
+Trying pattern boost_filesystem(-1_54)+
+Trying pattern boost_filesystem(-gcc[0-9]{0,3})+
+Trying pattern boost_filesystem
+Found boost lib libboost_filesystem.a
+Trying pattern boost_date_time(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_date_time(-1_54)+
+Trying pattern boost_date_time(-1_54)+
+Trying pattern boost_date_time(-gcc[0-9]{0,3})+
+Trying pattern boost_date_time
+Found boost lib libboost_date_time.a
+Trying pattern boost_iostreams(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_iostreams(-1_54)+
+Trying pattern boost_iostreams(-1_54)+
+Trying pattern boost_iostreams(-gcc[0-9]{0,3})+
+Trying pattern boost_iostreams
+Found boost lib libboost_iostreams.a
+Trying pattern boost_regex(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_regex(-1_54)+
+Trying pattern boost_regex(-1_54)+
+Trying pattern boost_regex(-gcc[0-9]{0,3})+
+Trying pattern boost_regex
+Found boost lib libboost_regex.a
+Trying pattern boost_program_options(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_program_options(-1_54)+
+Trying pattern boost_program_options(-1_54)+
+Trying pattern boost_program_options(-gcc[0-9]{0,3})+
+Trying pattern boost_program_options
+Found boost lib libboost_program_options.a
+Trying pattern boost_chrono(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_chrono(-1_54)+
+Trying pattern boost_chrono(-1_54)+
+Trying pattern boost_chrono(-gcc[0-9]{0,3})+
+Trying pattern boost_chrono
+Found boost lib libboost_chrono.a
+Trying pattern boost_random(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_random(-1_54)+
+Trying pattern boost_random(-1_54)+
+Trying pattern boost_random(-gcc[0-9]{0,3})+
+Trying pattern boost_random
+Found boost lib libboost_random.a
+Trying pattern boost_unit_test_framework(-gcc[0-9]{0,3})+(-1_54)+
+Trying pattern boost_unit_test_framework(-1_54)+
+Trying pattern boost_unit_test_framework(-1_54)+
+Trying pattern boost_unit_test_framework(-gcc[0-9]{0,3})+
+Trying pattern boost_unit_test_framework
+Found boost lib libboost_unit_test_framework.a
+ok
+----------------------------------------------------
+Checking for boost linkage
+==>
+
+#include <boost/system/error_code.hpp>
+int main() { boost::system::error_code c; }
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_17465c2caa951bf358d1d14b155e10bf/test.cpp[0m
+
+['/usr/bin/g++', '-O0', '-g3', '-pedantic', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=maybe-uninitialized', '-Wno-missing-field-initializers', '-Og', '-std=c++11', '-I/usr/include', '-D_DEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_STD_TO_STRING=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '-DHAVE_RTNETLINK=1', '-DHAVE_SQLITE3=1', '-DHAVE_TESTS=1', '../test.cpp', '-c', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_17465c2caa951bf358d1d14b155e10bf/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_17465c2caa951bf358d1d14b155e10bf/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/zzfanhero/Documents/GitHub/ndn/ndn-cxx/build/.conf_check_17465c2caa951bf358d1d14b155e10bf/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/i386-linux-gnu', '-lboost_system', '-lboost_filesystem', '-lboost_date_time', '-lboost_iostreams', '-lboost_regex', '-lboost_program_options', '-lboost_chrono', '-lboost_random', '-lboost_unit_test_framework']
+ok
